@@ -10,7 +10,7 @@ function App() {
             className="relative h-screen w-full bg-cover bg-center"
             style={{ backgroundImage: `url(${backgroundImage})` }}
         >
-            {/* Centered Card */}
+        
             <div className="absolute top-1/2 left-1/2 w-[400px] h-[550px] -translate-x-1/2 -translate-y-1/2">
                 <div className="h-full w-full rounded-3xl bg-white-500/30 backdrop-blur-md flex flex-col justify-center items-center px-6 py-8 space-y-6">
 
@@ -18,7 +18,7 @@ function App() {
                         <span className="font-sans text-white">Sam O Reilly</span>
 
                     </div>
-                    {/* GitHub */}
+            
                     <a
                         href="https://github.com/x23756575"
                         target="_blank"
@@ -33,7 +33,7 @@ function App() {
                         <span className="text-lg font-semibold text-gray-800">GitHub Page</span>
                     </a>
 
-                    {/* LinkedIn */}
+                
                     <a
                         href="https://www.linkedin.com/in/sam-o-reilly-61a50329a/"
                         target="_blank"
